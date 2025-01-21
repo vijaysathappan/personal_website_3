@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Sathappan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')"><i class="fas fa-home"></i></a></li>
+        <li><a href="#" onclick="showSection('about')"><i class="fas fa-person"></i></a></li>
+        <li><a href="#" onclick="showSection('skills')"><i class="fas fa-lightbulb"></i></a></li>
+        <li><a href="#" onclick="showSection('experience')"><i class="fas fa-briefcase"></i></a></li>
+        <li><a href="#" onclick="showSection('projects')"><i class="fas fa-tasks"></i></a></li>
+        <li><a href="#" onclick="showSection('contact')"><i class="fas fa-comment"></i></a></li>
+      </ul>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="content-section active">
+      <div class="logo">VJS</div>
+      <div class="hero-container">
+        <div class="rectangle-photo">
+          <img src="images\Mountain_Rectangle_Img.jpg" alt="Vijay Sathappan">
+          <div class="circle-photo">
+            <img src="images\Profile_Pic_Img.jpg" alt="Vijay Sathappan">
+          </div>
+          <div class="introduction-information">
+            <header1><c>I'm</c> Vijay Sathappan M</header1>
+            <sub1><m>Aspiring Engineer</m> B.Tech. ECE</sub1>
+            <div class="passionate-text">
+              I am passionate about leveraging my skills to drive innovation in the IT industry while contributing to impactful projects and continuously expanding my knowledge and expertise.
+            </div>
+            <!-- Current Date -->
+            <div id="date-container">
+              <p id="current-date"></p>
+            </div>
+            <!-- Current Time -->
+            <div id="time-container">
+              <p id="current-time"></p>
+            </div>
+          </div>
+          <div class="download-resume">
+            <a href="https://drive.google.com/file/d/1Lh61Th8z_u5UfkPxjGTaCPiYoh5q7cZs/view?usp=drive_link" target="_blank" class="resume">Download CV</a>
+          </div>
+          <div class="social-media">
+            <a href="https://linkedin.com/in/vijaysathappanm" target="_blank" class="social-link linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/vijay_sathappan" target="_blank" class="social-link leetcode"><i class="fas fa-code"></i></a>
+            <a href="mailto:vijaysathappan.manickam@gmail.com" class="social-link email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/vijay.sathappan" target="_blank" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/vijaysathappan" target="_blank" class="social-link github"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <div class="profile">
+        <h1>About Me</h1>
+        <p>
+          A passionate engineering graduate from Vellore Institute of Technology, I am a dedicated developer and problem solver. I have extensive experience building scalable and efficient web applications, integrating cloud services, and optimizing backend processes.
+        </p>
+        <p>
+          I specialize in delivering real-time solutions with a focus on performance, security, and seamless user experiences. Working in agile environments is where I thrive, and I have a deep understanding of modern development practices and tools. I am always ready to tackle complex challenges while fostering collaboration in dynamic teams.
+        </p>
+        <h2>Education</h2>
+        <!-- Education Table -->
+        <table class="education-table">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Institution/Board</th>
+              <th>Score</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>B.Tech. ECE</td>
+              <td>VIT University, Vellore</td>
+              <td>8.49*</td>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <td>Class 12 - (PCM)</td>
+              <td>DAV BHEL School, Ranipet</td>
+              <td>89.00%</td>
+              <td>2021</td>
+            </tr>
+            <tr>
+              <td>Class 10</td>
+              <td>Balsam Academy, Ranipet</td>
+              <td>88.20%</td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  <!-- Skills Section -->
+    <section id="skills" class="content-section">
+      <p>Tech Stack I am familiar with</p>
+      <div class="tech-stack-container">
+        <!-- Tech Stack Logos -->
+        <div class="tech-stack-logo">
+          <img src="images\PYTHON_Skills_Img.png" alt="Python" title="Python">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\ML_Skills_Img.jpg" alt="Machine Learning" title="Machine Learning">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\HTML_Skills_Img.png" alt="HTML" title="HTML">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\CSS_Skills_Img.png" alt="CSS" title="CSS">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\JS_Skills_Img.png" alt="JavaScript" title="JavaScript">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\IoT_Skills_Img.png" alt="IoT" title="IoT">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\React_Skills_Img.jpg" alt="React.js" title="React.js">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\ZohoCreator_Skills_Img.png" alt="Zoho Creator" title="Zoho Creator">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Arduino_Skills_Img.png" alt="Arduino" title="Arduino">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Selenium_Skills_Img.png" alt="Selenium" title="Selenium">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\PowerBI_Skills_Img.png" alt="Power BI" title="Power BI">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\RESTapi_SKills_Img.jpg" alt="REST Api" title="REST API">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\MySQL_Skills_Img.png" alt="MySQL" title="MySQL">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\MongoDB_Skills_Img.png" alt="MongoDB" title="MongoDB">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\GitHUB_SKills_Img.png" alt="GitHub" title="GitHub">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Postman_Skills_Img.png" alt="Postman" title="Postman">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Rasperry_Skills_img.png" alt="Raspberry Pi" title="Raspberry Pi">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Sci-Kit-Learn_Skills_Img.png" alt="Sci-kit-Learn" title="Sci-Kit-Learn">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Tenserflow_Skills_Img.png" alt="TensorFlow" title="TensorFlow">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Flask_Skills_Img.png" alt="Flask" title="Flask">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\BOOTSTRAP_Skills_Img.png" alt="Bootstrap" title="Bootstrap">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\tailwind_Skills_Img.png" alt="Tailwind" title="Tailwind">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\FastAPI_Skills_Img.png" alt="FastAPI" title="FastAPI">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\OpenCV_Skills_Img.png" title="OpenCV" alt="OpenCV">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Django_SKills_Img.png" alt="Django" title="Django">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Firebase_Skills_Img.png" alt="Firebase" title="Firebase">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Seaborn_Skills_Img.png" alt="Seaborn" title="Seaborn">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Miro_Skills_Img.png" alt="Miro" title="Miro">
+        </div>
+        <div class="tech-stack-logo">
+          <img src="images\Overleaf_Skills_Img.png" alt="Overleaf" title="Overleaf">
+        </div>
+      </div>
+    </section>
+<!--Experience Section-->
+    <section id="experience" class="content-section">
+      <div class="experience-cards">
+          <!-- Card 1 -->
+          <div class="experience-card">
+              <div class="card-header">
+                  <img class="company-logo" src="images\Incquet_Exp_Img.jpeg" alt="Company 1 Logo">
+                  <div class="card-details">
+                      <h3>Incquet Solutions Pvt. Ltd.</h3>
+                      <pi class="position">Software Developer Intern</pi>
+                      <p class="location">Pune, Maharashtra (Remote)</p>
+                      <p class="time">April 2024 - June 2024</p>
+                      <div class="description">
+                          <p>Gained expertise in application design and modern technologies, focusing on seamless user interactions and optimized performance. Developed tailored business solutions and web applications, enhancing overall functionality and ensuring smooth integration with existing systems. Collaborated with cross-functional teams to identify and address business needs. Applied best practices in coding and development to ensure high-quality, maintainable solutions.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="experience-card">
+              <div class="card-header">
+                  <img class="company-logo" src="images\Saahas_Exp_Img.png" alt="Company 2 Logo">
+                  <div class="card-details">
+                      <h3>Saahas Zero Waste Management Pvt. Ltd.</h3>
+                      <pi class="position">IT Intern</pi>
+                      <p class="location">Bengaluru, Karnataka (Remote)</p>
+                      <p class="time">July 2023 - January 2024</p>
+                      <div class="description">
+                          <p>Designed and developed an advanced stock report page to analyze waste metrics, enabling businesses to optimize resource utilization effectively. Implemented an AI-driven KPI parameter analysis system, providing intelligent recommendations to
+                            improve operational efficiency. Automated the seamless integration of IoT device data with web applications, ensuring real-time updates.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="experience-card">
+              <div class="card-header">
+                  <img class="company-logo" src="images\Tenxhealth_Exp_Img.png" alt="Company 3 Logo">
+                  <div class="card-details">
+                      <h3>Tenxhealth Technologies Pvt. Ltd.</h3>
+                      <pi class="position">Software Engineer Intern</pi>
+                      <p class="location">Coimbatore, Tamil Nadu (Hybrid)</p>
+                      <p class="time">August 2023 - January 2024</p>
+                      <div class="description">
+                          <p>Designed and developed tailored software solutions for small-scale industries to improve operational efficiency. Created Medi-CRM software for hospitals. Developed customized CRM software for hotels in Tamil Nadu.  Delivered scalable, user-friendly solutions that aligned with industry needs and improved business operations.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="experience-card">
+              <div class="card-header">
+                  <img class="company-logo" src="images\BAG_Exp_Img.jpeg" alt="Company 4 Logo">
+                  <div class="card-details">
+                      <h3>BAG Electronics and Technologies (I) Pvt. Ltd.</h3>
+                      <pi class="position">R&D Intern</pi>
+                      <p class="location">Pune, Maharashtra</p>
+                      <p class="time">September 2023 - October 2023</p>
+                      <div class="description">
+                          <p>Experienced in managing end-to-end project processes, including planning, execution, testing, and comprehensive documentation. Contributed to the development of a wireless control system for LED drivers, improving efficiency and remote management.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!--Projects Section-->
+    <section id="projects" class="content-section">
+      <div class="container">
+          <!-- Project 1 -->
+          <div class="project-card">
+              <div class="card">
+                  <div class="card-front">
+                      <img src="images\RRR_Project_Img.png" alt="Project 1">
+                      <h3>Rapid Ride Rentals: A Real-Time Application for Cycle Renting in a Controlled Environment.</h3>
+                  </div>
+                  <div class="card-back">
+                      <p><ab>Technologies:</ab> HTML, CSS, JS, Arduino, Postman API, Python, FAST API, Zoho Creator, MongoDB, IoT, GitHub.</p>
+                      <p><ab>Description:</ab> Developed a cycle rental management application integrating hardware (cycle lock) with RFID technology
+                        for secure user access. Implemented API communication between the mobile app and hardware for
+                        real-time control and management. This combination of hardware and software enhances user experience
+                        and operational efficiency</p>
+                        <a href="https://github.com/vijaysathappan" target="_blank"><button class="project-btn">GitHub</button></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card">
+              <div class="card">
+                  <div class="card-front">
+                      <img src="images\EcoEnergie_Project_Img.jpg" alt="Project 2">
+                      <h3>EcoEnergie: AI Suggestion for Energy Efficiency for House to be Smart.</h3>
+                  </div>
+                  <div class="card-back">
+                      <p><ab>Technologies:</ab> Arduino, IoT, MongoDB, HTML, CSS, JS, Postman API, Python, Machine Learning, Circuit Design, Product Design.</p>
+                      <p><ab>Description:</ab> Developed Smart AI Suggestions for Energy Conservation in House. Implemented IoT Devices for Energy
+                        Efficiency. Created a product that captures the energy usage patterns and gives suggestions. Applied
+                        Machine Learning Models for accuracy and efficiency of the Device.</p>
+                        <a href="https://github.com/vijaysathappan" target="_blank"><button class="project-btn">GitHub</button></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card">
+              <div class="card">
+                  <div class="card-front">
+                      <img src="images\PolyBag_Project_Img.png" alt="Project 3">
+                      <h3>PolyBagML: A Novel Custom Approach for High-Dimensional Dataset Prediction.</h3>
+                  </div>
+                  <div class="card-back">
+                      <p><ab>Technologies:</ab> Python, Machine Learning, Sci-Kit Libraries, Tenserflow, Matplotlib, Numpy, Pandas, Keras, GitHub, Vercel</p>
+                      <p><ab>Description:</ab> Developed a custom machine learning model utilizing a fusion algorithm for dynamic and accurate
+                        predictions on complex datasets. Engineered custom solutions for linear, non-linear, categorical, numerical,
+                        and high-dimensional data, enhancing model accuracy and adaptability to real-world problems.</p>
+                        <a href="https://github.com/vijaysathappan" target="_blank"><button class="project-btn">GitHub</button></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="project-card">
+              <div class="card">
+                  <div class="card-front">
+                      <img src="images\Smart_Bin_Project_Img.png" alt="Project 4">
+                      <h3>Smart Bin: A Waste Classification System for Eco-Friendly Urban Environments.</h3>
+                  </div>
+                  <div class="card-back">
+                      <p><ab>Technologies:</ab> Python, Object Detection, OpenCV, Keras, Tenserflow, Zoho Creator, Machine Learning, Graph Programming, IoT, Postman API, Google Drive.</p>
+                      <p><ab>Description:</ab> Developed a real-time waste identification system using OpenCV and ESP32 CAM modules, integrating
+                        with APIs and Zoho Creator for smart waste collection routing. Implemented accurate image analysis and
+                        data visualization on a web page, and optimized routes for efficiency.</p>
+                        <a href="https://doi.org/10.1109/AIIoT58432.2024.10574802" target="_blank"><button class="project-btn-2">IEEE Xplore</button></a>
+                        <a href="https://github.com/vijaysathappan" target="_blank"><button class="project-btn-3">GitHUB</button></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 5 -->
+          <div class="project-card">
+              <div class="card">
+                  <div class="card-front">
+                      <img src="images\Countify_Project_Img.png" alt="Project 5">
+                      <h3>Countify: A Smart Count Detector for Industrial Automation.</h3>
+                  </div>
+                  <div class="card-back">
+                      <p><ab>Technologies:</ab> IoT, Arduino, Postman API, MongoDB, Zoho Creator, Circuit Design, HTML, CSS, JS, Product Design.</p>
+                      <p><ab>Description:</ab> Developed a real-time object/event counting system integrated with Zoho Creator, enhancing data
+                        transparency and productivity. Implemented accurate counting mechanism, seamless API integration, and
+                        robust data visualization tools to generate insightful reports and optimize decision-making.</p>
+                        <a href="https://github.com/vijaysathappan" target="_blank"><button class="project-btn">GitHub</button></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <p>Get in touch with me!</p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">
+          Submit
+          <span class="spinner"></span> <!-- Add a spinner icon -->
+        </button>
+      </form>
+      <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form submission to handle validation
+          const name = document.querySelector('input[name="name"]');
+          const phone = document.querySelector('input[name="email"]');
+          const message = document.querySelector('textarea[name="message"]');
+          // Reset previous errors
+          resetErrors();
+          let isValid = true;
+          // Validate name
+          if (name.value.trim() === "") {
+            setError(name, "Name is required.");
+            isValid = false;
+          }
+          // Validate Email
+          const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+          if (!emailPattern.test(phone.value.trim())) {
+            setError(phone, "Please enter a valid email address.");
+            isValid = false;
+          }
+          // Validate message
+          if (message.value.trim() === "") {
+            setError(message, "Message cannot be empty.");
+            isValid = false;
+          }
+          if (isValid) {
+            const url = `https://script.google.com/macros/s/AKfycbx_zElKyz4CX1SXHIAQLIqeC1BQoCgp6P7Eab_zj3Zq8X-8KJC_gZbniPVheMu5eMoD/exec?name=${encodeURIComponent(name.value)}&phonenumber=${encodeURIComponent(phone.value)}&message=${encodeURIComponent(message.value)}`;
+            fetch(url)
+              .then(response => response.text())
+              .then(data => {
+                console.log("Response from Google Apps Script:", data);
+                alert("Form submitted successfully!");
+                document.querySelector('.contact-form').reset();
+              })
+              .catch(error => {
+                console.error("Error submitting form:", error);
+                alert("Error submitting the form.");
+              });
+          }
+        });
+        function setError(input, message) {
+          const formGroup = input.closest('.form-group');
+          const errorText = document.createElement('span');
+          errorText.classList.add('error-message');
+          errorText.textContent = message;
+          input.classList.add('error');
+          formGroup.appendChild(errorText);
+        }
+        function resetErrors() {
+          const errorFields = document.querySelectorAll('.error');
+          errorFields.forEach(field => {
+            field.classList.remove('error');
+            const errorMessage = field.closest('.form-group').querySelector('.error-message');
+            if (errorMessage) {
+              errorMessage.remove();
+            }
+          });
+        }
+        document.querySelector('.contact-form').addEventListener('input', function() {
+      const form = document.querySelector('.contact-form');
+      const button = form.querySelector('button');
+      const isValid = form.checkValidity();
+      if (isValid) {
+        button.classList.add('success'); 
+      } else {
+        button.classList.remove('success'); 
+      }
+    });
+      </script>
+    </section>
+    <script>
+      // Function to show the clicked section and hide all others
+      function showSection(sectionId) {
+        // Hide all sections
+        var sections = document.querySelectorAll('.content-section');
+        sections.forEach(function(sec) {
+          sec.classList.remove('active');
+        });
+        // Show the clicked section
+        var activeSection = document.getElementById(sectionId);
+        activeSection.classList.add('active');
+      }
+    </script>
+  </body>
+</html>
+<!------------------------------Vijay Sathappan M Website---------------------------------------------->
